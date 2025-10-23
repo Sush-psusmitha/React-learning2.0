@@ -5,9 +5,9 @@ import './App.css'
 import ClassBasedComponent from './components/class-based-component'
 import FunctionalComponent from './components/functional-component'
 import ProductList from './components/products'
-
-
 const dummyProducts = ['product 1', 'product 2', 'product 3', 'product 4']; 
+
+
 
 function App() {
   const [count, setCount] = useState(0)
