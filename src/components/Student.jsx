@@ -1,22 +1,33 @@
-const Student = ({name,age,isMarried}) => {
+import PropTypes from "prop-types";
+
+const Student = ({ name = "No Name", age = 0, isMarried = false }) => {
   return (
     <div className="student">
-       <table>
-        <tr>
+      <table border="1" cellPadding="5">
+        <tbody>
+          <tr>
             <th>Name</th>
             <td>{name}</td>
-        </tr>
-        <tr>
+          </tr>
+          <tr>
             <th>Age</th>
             <td>{age}</td>
-        </tr>
-        <tr>
+          </tr>
+          <tr>
             <th>isMarried</th>
             <td>{isMarried ? "Yes" : "No"}</td>
-        </tr>
-       </table>
+          </tr>
+        </tbody>
+      </table>
     </div>
-  )
-}
+  );
+};
 
-export default Student
+// ✅ Prop type validation still works
+Student.propTypes = {
+  name: PropTypes.string,
+  age: PropTypes.number,
+  isMarried: PropTypes.bool,
+};
+
+export default Student;
