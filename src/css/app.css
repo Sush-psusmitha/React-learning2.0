@@ -1,0 +1,15 @@
+.text{
+    color: blue;
+}
+
+.slogan{
+    color: rgb(10, 139, 10);
+}
+.code{
+    background: #c26f6f;
+    width: max-content;
+}
+.error{
+    background-color: blue;
+    width: max-content;
+}
