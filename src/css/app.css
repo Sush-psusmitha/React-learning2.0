@@ -1,7 +1,6 @@
 .text{
     color: blue;
 }
-
 .slogan{
     color: rgb(10, 139, 10);
 }
@@ -12,4 +11,16 @@
 .error{
     background-color: blue;
     width: max-content;
+}
+.student{
+    margin-bottom: 20px;
+}
+.student table{
+    border: 1px solid #c26f6f;
+    width: 200px;
+    border-collapse: collapse;
+}
+.student table td, .student table th{
+    text-align: left;
+    border: 1px solid #c26f6f;
 }
