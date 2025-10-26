@@ -1,5 +1,6 @@
 
 import Content from "./components/Content";
+import CounterAPp from "./components/CounterAPp";
 import Footer from "./components/Footer";
 import Head from "./components/Head"
 import Header from "./components/Header";
@@ -23,6 +24,7 @@ function App() {
       
       <Content />
       <Footer user="Santhosh"/>
+      <CounterAPp />
     </div>
   );
 }
