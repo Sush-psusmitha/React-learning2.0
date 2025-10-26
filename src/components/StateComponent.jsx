@@ -16,17 +16,22 @@ const handleDecrement = () => {
 // eg:3
 const [name,setName] = useState("")
 
+// eg:4
+const [user,setUser] = useState("sushmitha");
   return (
     <div>
       <p> My Favioute color is {color}</p> 
        <button onClick={()=>{setColor("Orange")}}>Change Color</button> <br />
-
        <p>Count : {count}</p>
        <button onClick={handleIncrement}>Increment</button> 
        <button onClick={handleDecrement}>Decrement</button> <br /> <br />
+
        <input type="text" placeholder='Enter your Name' onChange={(e) =>setName(e.target.value) } />
+
        <h2>{name}</h2>
 
+<p>My Name is {user}</p>
+<button onClick={()=>{setUser("Santhosh")}}>Change Name</button>
     </div>
   )
 }

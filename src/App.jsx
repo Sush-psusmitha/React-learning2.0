@@ -10,8 +10,7 @@ import Student from "./components/student"
 let user = "Sushmitha"
 function App() {
   return (
-    <>
-      <h1>React JS Concepts</h1>
+    <div className="app">
       {/* <Student name="Sushmitha" age={23} isMarried={true} /> */}
       {/* <Student name="sam" isMarried={true} /> */}
        {/* age default → 0 */}
@@ -19,12 +18,12 @@ function App() {
       {/* isMarried default → false */}
       {/* <Student />  */}
       {/* all default values */}
-      {/* <StateComponent /> */}
+      <StateComponent />
       <Header user={user} />
       
       <Content />
       <Footer user="Santhosh"/>
-    </>
+    </div>
   );
 }
 
