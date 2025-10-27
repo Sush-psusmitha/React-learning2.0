@@ -5,6 +5,7 @@ import Footer from "./components/Footer";
 import Head from "./components/Head"
 import Header from "./components/Header";
 import LearnComponent from "./components/LearnComponent"
+import RenderingApp from "./components/RenderingApp";
 import StateComponent from "./components/StateComponent";
 import Student from "./components/student"
 
@@ -19,12 +20,13 @@ function App() {
       {/* isMarried default → false */}
       {/* <Student />  */}
       {/* all default values */}
-      <StateComponent />
-      <Header user={user} />
+      {/* <StateComponent /> */}
+      {/* <Header user={user} /> */}
       
-      <Content />
-      <Footer user="Santhosh"/>
-      <CounterAPp />
+      {/* <Content /> */}
+      {/* <Footer user="Santhosh"/> */}
+      {/* <CounterAPp /> */}
+      <RenderingApp />
     </div>
   );
 }
