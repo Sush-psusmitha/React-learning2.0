@@ -30,6 +30,10 @@ const CounterAPp = () => {
     <div>
       <h2 style={{marginTop: "50px"}}>Counter - {count} | sample - {sample}</h2>
       <button onClick={handleIncrease}>Increase</button>
+
+
+
+
       <button onClick={handleDecrease}>Decrease</button>
     </div>
   )
